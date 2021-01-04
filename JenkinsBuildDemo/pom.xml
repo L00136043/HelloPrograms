@@ -7,6 +7,7 @@
   <description>Demo Project for github, jenkins and maven integration </description>
   <build>
     <sourceDirectory>src</sourceDirectory>
+    <testSourceDirectory>src/testers</testSourceDirectory> 
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
